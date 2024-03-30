@@ -62,5 +62,7 @@ class AuthController extends Controller
                 ResponseAlias::HTTP_UNPROCESSABLE_ENTITY
             );
         }
+
+        return "Validated";
     }
 }
